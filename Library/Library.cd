@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DrugSupervise.Library.DrugBox">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAEAAIAEAIAAQACAAAAAAAAEIAAABAAAAAA=</HashCode>
+      <FileName>DrugBox.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Parent" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Child" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DrugSupervise.Library.DrugPacks">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACAAAIAAAAACAAAAAAAgAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>DrugPacks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrugSupervise.Library.Properties.Resources" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrugSupervise.Library.Properties.Settings" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="DrugSupervise.Library.PackRate" Collapsed="true">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAECAIAAAAAAAEAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>PackRate.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="DrugSupervise.Library.PackFlag" Collapsed="true">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAgAAAAAAAAAAAAAAAAAACAIAAAAAAAA=</HashCode>
+      <FileName>Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DrugSupervise.Library.PackLayer" Collapsed="true">
+    <Position X="7.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAgAAAAAAAABEBAACgAAAAAAAAAAAgAIACAAAAAAAA=</HashCode>
+      <FileName>Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
