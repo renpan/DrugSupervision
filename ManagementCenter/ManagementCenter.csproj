@@ -45,6 +45,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InfoDrugBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoDrugBatch.designer.cs">
+      <DependentUpon>InfoDrugBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoDrugCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoDrugCode.designer.cs">
+      <DependentUpon>InfoDrugCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPackageData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoPackageData.designer.cs">
+      <DependentUpon>InfoPackageData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoDrug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoDrug.designer.cs">
+      <DependentUpon>InfoDrug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskDispatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaskDispatch.Designer.cs">
+      <DependentUpon>TaskDispatch.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +89,36 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CodeGather.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeGather.Designer.cs">
+      <DependentUpon>CodeGather.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelContent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaskManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaskManager.Designer.cs">
+      <DependentUpon>TaskManager.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="InfoDrugBatch.resx">
+      <DependentUpon>InfoDrugBatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoDrugCode.resx">
+      <DependentUpon>InfoDrugCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoPackageData.resx">
+      <DependentUpon>InfoPackageData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoDrug.resx">
+      <DependentUpon>InfoDrug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskDispatch.resx">
+      <DependentUpon>TaskDispatch.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +134,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CodeGather.resx">
+      <DependentUpon>CodeGather.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelContent.resx">
+      <DependentUpon>PanelContent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskManager.resx">
+      <DependentUpon>TaskManager.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
