@@ -206,6 +206,8 @@
     <None Include="Skin\Page\PageColor2.ssk" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dynamic\IrisSkin2.dll" />
+    <Content Include="Dynamic\OpenSource.PhhSoft.FoldingMenuStrip.dll" />
     <Content Include="img\%280%29.BMP" />
     <Content Include="img\%281%29.BMP" />
     <Content Include="img\%282%29.BMP" />
