@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace ManagementCenter
 {
-    public partial class CodePrint : Form
+    public partial class CodePrint : PanelContent
     {
         public CodePrint()
         {

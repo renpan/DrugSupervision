@@ -13,6 +13,7 @@ namespace ManagementCenter
         public Login()
         {
             InitializeComponent();
+            this.button1_Click(this.button1, null);
         }
 
         Main m = Main.GetInstance();
@@ -31,6 +32,26 @@ namespace ManagementCenter
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        bool expanded = true;
+       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (expanded)
+            {
+                this.button1.Text = "服务器设置↓";
+                this.Height -= this.groupBox1.Height+20;
+               
+            }
+            else
+            {
+                this.button1.Text = "服务器设置↑";
+
+                this.Height += this.groupBox1.Height+20;
+            }
+            expanded = !expanded ;
+            this.groupBox1.Visible = expanded;
         }
     }
 }
