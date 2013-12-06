@@ -14,7 +14,7 @@ namespace ManagementCenter
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ManagementCenter.Main());
+            Application.Run(new ManagementCenter.Login());
         }
     }
 }

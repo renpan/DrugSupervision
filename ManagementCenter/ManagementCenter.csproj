@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="IrisSkin2, Version=2006.3.22.45, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\admin.CAT\Desktop\C#界面皮肤源码（带大量皮肤素材）\IrisSkin2.dll</HintPath>
+    </Reference>
     <Reference Include="OpenSource.PhhSoft.FoldingMenuStrip">
       <HintPath>Dynamic\OpenSource.PhhSoft.FoldingMenuStrip.dll</HintPath>
     </Reference>
@@ -45,6 +49,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PackageCriterion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PackageCriterion.designer.cs">
+      <DependentUpon>PackageCriterion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodePrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodePrint.Designer.cs">
+      <DependentUpon>CodePrint.cs</DependentUpon>
+    </Compile>
     <Compile Include="InfoDrugBatch.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +84,18 @@
     </Compile>
     <Compile Include="InfoDrug.designer.cs">
       <DependentUpon>InfoDrug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PackageScattered.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PackageScattered.Designer.cs">
+      <DependentUpon>PackageScattered.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PackageIntegrated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PackageIntegrated.Designer.cs">
+      <DependentUpon>PackageIntegrated.cs</DependentUpon>
     </Compile>
     <Compile Include="TaskDispatch.cs">
       <SubType>Form</SubType>
@@ -104,6 +132,18 @@
     <Compile Include="TaskManager.Designer.cs">
       <DependentUpon>TaskManager.cs</DependentUpon>
     </Compile>
+    <Compile Include="PackageDataStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PackageDataStore.Designer.cs">
+      <DependentUpon>PackageDataStore.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PackageCriterion.resx">
+      <DependentUpon>PackageCriterion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodePrint.resx">
+      <DependentUpon>CodePrint.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InfoDrugBatch.resx">
       <DependentUpon>InfoDrugBatch.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +155,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InfoDrug.resx">
       <DependentUpon>InfoDrug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PackageScattered.resx">
+      <DependentUpon>PackageScattered.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PackageIntegrated.resx">
+      <DependentUpon>PackageIntegrated.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TaskDispatch.resx">
       <DependentUpon>TaskDispatch.cs</DependentUpon>
@@ -143,6 +189,9 @@
     <EmbeddedResource Include="TaskManager.resx">
       <DependentUpon>TaskManager.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PackageDataStore.resx">
+      <DependentUpon>PackageDataStore.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -152,6 +201,48 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Skin\Page\Page.ssk" />
+    <None Include="Skin\Page\PageColor1.ssk" />
+    <None Include="Skin\Page\PageColor2.ssk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\%280%29.BMP" />
+    <Content Include="img\%281%29.BMP" />
+    <Content Include="img\%282%29.BMP" />
+    <Content Include="img\%283%29.BMP" />
+    <Content Include="img\%284%29.BMP" />
+    <Content Include="img\%285%29.BMP" />
+    <Content Include="img\%286%29.BMP" />
+    <Content Include="img\%287%29.BMP" />
+    <Content Include="img\%288%29.BMP" />
+    <Content Include="img\%289%29.BMP" />
+    <Content Include="img\AlignObjectsBottom.bmp" />
+    <Content Include="img\AlignObjectsCenteredHorizontalHS.bmp" />
+    <Content Include="img\AlignObjectsCenteredVerticalHS.bmp" />
+    <Content Include="img\AlignObjectsLeft.bmp" />
+    <Content Include="img\AlignObjectsRight.bmp" />
+    <Content Include="img\AlignObjectsTop.bmp" />
+    <Content Include="img\BringForward.bmp" />
+    <Content Include="img\build.bmp" />
+    <Content Include="img\Copy.bmp" />
+    <Content Include="img\Cut.bmp" />
+    <Content Include="img\Delete.bmp" />
+    <Content Include="img\Edit_Redo.bmp" />
+    <Content Include="img\Edit_Undo.bmp" />
+    <Content Include="img\gear_2.bmp" />
+    <Content Include="img\Help.bmp" />
+    <Content Include="img\Home.bmp" />
+    <Content Include="img\MultiSelect.bmp" />
+    <Content Include="img\NewWindow.bmp" />
+    <Content Include="img\OpenFolder.bmp" />
+    <Content Include="img\Paste.bmp" />
+    <Content Include="img\Run.bmp" />
+    <Content Include="img\SaveDocument.bmp" />
+    <Content Include="img\SendBackward.bmp" />
+    <Content Include="img\Stop.bmp" />
+    <Content Include="Skin\Page\page.gif" />
+    <Content Include="Skin\Page\page_color1.gif" />
+    <Content Include="Skin\Page\page_color2.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

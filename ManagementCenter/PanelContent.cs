@@ -39,6 +39,7 @@ namespace ManagementCenter
         public PanelContent()
         {
             InitializeComponent();
+           
         }
     }
 }

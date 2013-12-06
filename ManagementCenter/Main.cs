@@ -13,9 +13,17 @@ namespace ManagementCenter
 {
     public partial class Main : Form
     {
-        public Main()
+        private Main()
         {
-            InitializeComponent();
+            InitializeComponent();            
+        }
+
+        private static Main instance = new Main();
+        public static Main GetInstance()
+        {
+            if (null == instance)
+                instance = new Main();
+            return instance;
         }
         private Dictionary<string, Form> FormMap = new Dictionary<string, Form>();
         private Form  CreteFormUsgmName(string formName)
@@ -59,20 +67,17 @@ namespace ManagementCenter
             {
                 client = this.CreteFormUsgmName(className);
                 FormMap.Add(className, client);
-               
             }
 
 
             if (client != null)
             {
                 client.TopLevel = false;
-                client.Opacity = 0.1;
-                client.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+                client.Dock = DockStyle.Fill;
 
                 this.splitContainer1.Panel2.Controls.Clear();
                 this.splitContainer1.Panel2.Controls.Add(client);
-                client.Dock = DockStyle.Fill;
-                //client.Parent = this.splitContainer1.Panel2;
+
                 client.Visible = true;
             }
           
@@ -85,18 +90,26 @@ namespace ManagementCenter
 
             string text = item.Name;
             string formName = string.Empty;
+            // 数据文件管理
+          
             if (text.Equals("btnDrugInfo"))
             {
                 formName = "InfoDrug";
             }
-            else if (text.Equals("btnDrugBatch"))
-            {
-                formName = "InfoDrugBatch";
-            }
-            else if (text.Equals("btnDrugCode"))
+          
+            else if (text.Equals("btnCodeFile"))
             {
                 formName = "InfoDrugCode";
             }
+            else if (text.Equals("btnDataExport"))
+            {
+                formName = "InfoPackageData";
+            }
+            else if (text.Equals("btnDataStore"))
+            {
+                formName = "PackageDataStore";
+            }
+            // 生产管理
             else if (text.Equals("btnTask"))
             {
                 formName = "TaskManager";
@@ -105,37 +118,31 @@ namespace ManagementCenter
             {
                 formName = "CodeGather";
             }
+            // 异常管理
             else if (text.Equals("btnPackageScattered"))
             {
-
-            }else  if (text.Equals("btnPackageIntegrated"))
-            {
-
-            }else  if (text.Equals(""))
-            {
-
-            }else  if (text.Equals(""))
-            {
-
-            }else  if (text.Equals(""))
-            {
-
-            }else  if (text.Equals(""))
-            {
-
-            }else  if (text.Equals(""))
-            {
-
-            }else  if (text.Equals(""))
-            {
+                formName = "PackageScattered";
 
             }
-            else
+            else if (text.Equals("btnPackageIntegrated"))
             {
-
+                formName = "PackageIntegrated";
             }
-
-            ShowForm(formName);
+            // 基础数据
+            else if (text.Equals("btnPackageCriterion"))
+            {
+                formName = "PackageCriterion";
+            }
+            else if (text.Equals("btnCodePrint"))
+            {
+                formName = "CodePrint";
+            }
+            else if (text.Equals("btnDrugBatch"))
+            {
+                formName = "InfoDrugBatch";
+            }
+            if(formName != string.Empty)
+                ShowForm(formName);
         }
        
       

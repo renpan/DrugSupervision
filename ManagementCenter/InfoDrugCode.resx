@@ -117,4 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIdJREFUOE+lk0EO
+        wCAIBOnPPfkuf2ZZ0/XQAAHF0PQAwwL6TDW5MQBuTJjce59VX+rxQeIYo+TI0c6n4KdqVLoB2erStKKe
+        YwALmYDsAAExAdk5EID+9xbWMIrOgvseWAoIjdSFAMilVA8i3gqbrowOiBeHZ2T2/13SBQnn40r7gd24
+        7Pq8uBdeOt5yw8DC5wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAQpJREFUOE+VkzES
+        gjAQRcMNPIdtPFO8jm2sKBxnLGw4AbWztVQU9hbS0a37Q4AQCGJmPmQCef9vFjIlg6xh3F+7vXp/npgq
+        7a5KHY7nzE+Xb/fbiZksy2UuWbcenoTAnUnEgHgBiDXSbI126X4AtE8xbmSrJJj6H2CFEcvIWicapA0x
+        5A4QUbtzQM3M18eH5d25BlAHTALCBCnndAJCN9KjbVuGmqZhraX9aNOkBA+wqBf2KMzPsbGfl2UZAXwL
+        8cLSCJ3hPgKMYXI97w6xKIqJa5gAG2cJ3KcsUa2AUE6cIHYGxIGkVHcG8cjzS7LuMMEqAK51XXNVVU4k
+        bhC+j16rAETbqtX/ZMvDL/cFVdtC9UuuAAAAAElFTkSuQmCC
+</value>
+  </data>
 </root>

@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace ManagementCenter
 {
-    public partial class Batch_information : PanelContent
+    public partial class InfoDrugBatch : PanelContent
     {
-        public Batch_information()
+        public InfoDrugBatch()
         {
             InitializeComponent();
         }

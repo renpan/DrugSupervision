@@ -19,5 +19,11 @@ namespace ManagementCenter
         {
 
         }
+
+        private void toolStripButton8_Click(object sender, EventArgs e)
+        {
+            TaskDispatch task = new TaskDispatch();
+            task.ShowDialog();
+        }
     }
 }

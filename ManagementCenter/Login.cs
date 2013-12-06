@@ -14,5 +14,23 @@ namespace ManagementCenter
         {
             InitializeComponent();
         }
+
+        Main m = Main.GetInstance();
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+            m.Show();
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
