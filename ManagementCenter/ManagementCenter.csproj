@@ -35,7 +35,7 @@
   <ItemGroup>
     <Reference Include="IrisSkin2, Version=2006.3.22.45, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\admin.CAT\Desktop\C#界面皮肤源码（带大量皮肤素材）\IrisSkin2.dll</HintPath>
+      <HintPath>Dynamic\IrisSkin2.dll</HintPath>
     </Reference>
     <Reference Include="OpenSource.PhhSoft.FoldingMenuStrip">
       <HintPath>Dynamic\OpenSource.PhhSoft.FoldingMenuStrip.dll</HintPath>
